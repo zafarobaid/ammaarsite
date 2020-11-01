@@ -1,0 +1,218 @@
+html {
+    background-image:linear-gradient(to bottom, white, rgb(37, 110, 247), rgb(37, 110, 247), rgb(30, 85, 185), rgb(30, 85, 185), rgb(12, 63, 158), rgb(12, 63, 158)) ;
+   
+}
+
+/* header {
+    text-align: center;
+} */
+
+nav {
+    background: none;
+    text-align: left;
+}
+
+a {
+    text-decoration-line: none;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: block;
+    padding: 0px;
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.sunImg {
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 1180px;
+    margin-top: -100px;
+}
+
+.name {
+    text-align: center;
+}
+
+h2, h3, h4 {
+    font-family: cursive;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex1 {
+    padding-left: 750px;
+    padding-top: 250px;
+   
+}
+
+.flex2 {
+    padding-left: 0px;
+    padding-top: 350px;
+   
+}
+
+.flex3 {
+    
+}
+
+.flex4 {
+    padding-left: 800px;
+    padding-top: 150px;
+   
+}
+
+.flex6 {
+    margin-left: 100px;
+}
+
+@keyframes moveDolphin {
+    0% {left: 0px; top: 0px; transform: rotateY(0deg);}
+    25% {left: -1350px; top: 0px; transform: rotateY(0deg);}
+    50% {left: -1350px; top: 550px; transform: rotateY(180deg) ;}
+    75% {left: 700px; top: 550px; transform: rotateY(180deg);}
+    100% {left: 700px; top: 0px; transform: rotateY(360deg);}
+}
+
+@keyframes moveOrca {
+    0% {left: 0px; top: 0px; transform: rotateY(0deg);}
+    25% {left: 1350px; top: 0px; transform: rotateY(0deg);}
+    50% {left: 1350px; top: -550px; transform: rotateY(180deg) ;}
+    75% {left: -700px; top: -550px; transform: rotateY(180deg);}
+    100% {left: -700px; top: 0px; transform: rotateY(360deg);}
+}
+
+@keyframes moveBabyorca {
+    0% {left: 0px; top: 0px; transform: rotateY(0deg);}
+    25% {left: 1350px; top: 0px; transform: rotateY(0deg);}
+    50% {left: 1350px; top: -550px; transform: rotateY(180deg) ;}
+    75% {left: -700px; top: -550px; transform: rotateY(180deg);}
+    100% {left: -700px; top: 0px; transform: rotateY(360deg);}
+}
+
+@keyframes moveSeal {
+    0% {left: 800px; top: 0px; transform: rotateY(0deg);}
+    25% {left: -1350px; top: 0px; transform: rotateY(0deg);}
+    50% {left: -1350px; top: -1250px; transform: rotateY(180deg) ;}
+    75% {left: 700px; top: -1250px; transform: rotateY(180deg);}
+    100% {left: 700px; top: 0px; transform: rotateY(360deg);}
+}
+
+@keyframes moveFish {
+    0% {left: 800px; top: 0px; transform: rotateY(0deg);}
+    25% {left: -1350px; top: 0px; transform: rotateY(0deg);}
+    50% {left: -1350px; top: -1250px; transform: rotateY(180deg) ;}
+    75% {left: 700px; top: -1250px; transform: rotateY(180deg);}
+    100% {left: 700px; top: 0px; transform: rotateY(360deg);}
+}
+
+#img {
+    height: 750px;
+    width: 1300px;
+}
+
+.img1 {
+    height: 250px;
+    width: 500px;
+    position: relative;
+    animation: moveDolphin 12s infinite linear;
+}
+   
+
+#img2 {
+    height: 300px;
+    width: 600px;
+    position: relative;
+    animation: moveOrca 12s infinite linear;
+}
+
+#img3 {
+    height: 130px;
+    width: 260px;
+    position: relative;
+    animation: moveBabyorca 12s infinite linear;
+}
+
+#img4 {
+    height: 150px;
+    width: 450px;
+    position: relative;
+    animation: moveSeal 12s infinite linear;
+    
+}
+
+#img5 {
+    height: 50px;
+    width: 70px;
+    border: 3px solid black;
+    border-radius: 45%;
+}
+
+#img6 {
+    height: 50px;
+    width: 70px;
+    border: 3px solid black;
+    border-radius: 45%;
+    /* margin-left: 100px; */
+}
+
+#img7 {
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+
+#img9 {
+    height: 200px;
+    width: 250px;
+    margin-left: 1090px;
+    position: relative;
+    animation: moveFish 12s infinite linear;
+    
+}
+
+/* #img8 {
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+} */
+
+
+@keyframes rotateDolphin {
+    0% {left: -450px; top: -50px; transform: rotateY(0deg);}
+    100% {left: -450px; top: -50px; transform: rotateY(180deg);}
+}
+
+/* .dolAni {
+    animation: rotateDolphin 5s 1s linear forwards;
+    animation-delay: 5s;
+} */
+
+/*
+.writing {
+    display: flex;
+    text-align: center;
+    justify-content: ;
+    font-family: cursive;
+    font-size: 20px;
+} */
+
+.facts {
+    text-align: center;
+    font-family: cursive;
+}
